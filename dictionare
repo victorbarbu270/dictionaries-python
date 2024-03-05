@@ -1,0 +1,60 @@
+#how to create a dictionary
+"""thisdict = {
+    "brand" : "Ford",
+    "model" : "Mustang",
+    "year" : 1964,
+    "year" : 1970
+}
+
+print(len(thisdict))
+"""
+#TYPE + TYPES OF VARIABLES
+"""
+thisdict = {
+    "brand":"Ford",
+    "electric":False,
+    "year":1964,
+    "colors":["red","white","blue"]
+    
+}
+print(type(thisdict))
+"""
+
+#dict() method for creating a dictionary
+""""
+thisdict = dict(name = "John" , age = 36 , country = "Romania")
+print(thisdict)
+
+"""
+
+"""
+thisdict = {
+    "brand" : "Ford",
+    "model" : "Mustang",
+    "year" : 1960  
+}
+"""
+#x = thisdict.get("model")
+#print(x)
+
+#comanda pt a lua toate keysurile
+#x = thisdict.keys()
+#print(x)
+
+#adauga un nou key la dictionar
+#x = thisdict.keys()
+#print(x)
+#thisdict["color"] = "white"
+#print(x)
+
+#schimbam o valoare
+#x = thisdict.values()
+#print(x)
+#thisdict["year"] = 2020
+#print(x)
+
+#adaugam un nou item
+#x = thisdict.values()
+#print(x)
+#thisdict["color"] = "red"
+#print(x)
